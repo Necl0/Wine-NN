@@ -14,7 +14,6 @@ url = "https://archive.ics.uci.edu/ml/machine-learning-databases/wine/wine.data"
 # Assign colum names to the dataset
 names = ['Alcohol','Malic Acid','Ash','Alcalinity of Ash','Magnesium','Total phenols','Flavanoids','Nonflavanoid Phenols',
          'Proanthocyanins','Color intensity','Hue','OD280/OD315 of diluted wines','Proline'] 
-# 59 71 48
 
 winedata = pd.read_csv(url, names=names)
 
